@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <>
-      <section className="flex md:flex-row flex-col-reverse justify-around lg:px-44 px-16 items-center gap-6 mt-16">
+      <section className="flex md:flex-row flex-col-reverse justify-around lg:px-16 px-6 items-center gap-6 mt-16">
         <div>
           <h1 className="md:text-7xl text-4xl font-semibold md:leading-[87px] leading-[45px] md:tracking-[-4.5px] tracking-normal" >
             Simply explained with illustrations
@@ -10,7 +10,7 @@ const Hero = () => {
             There are a lot of different components that will help you create
             the perfect look for your project
           </p>
-          <div className="flex gap-3">
+          <div className="flex gap-3 flex-wrap">
             <button className="text-white bg-[#5F62E2] rounded-md px-4 py-2 hover:bg-blue-800 transition-all duration-300">
               Get Started
             </button>
@@ -20,7 +20,7 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <img src="/Component-1.png" alt="" />
+          <img src="/Component-1.png" alt="" className="w-full h-auto max-w-lg" />
         </div>
       </section>
     </>
