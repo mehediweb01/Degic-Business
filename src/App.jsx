@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Presentation from "./components/Presentation";
 import Slider from "./components/Slider";
 import Video from "./components/Video";
+import WorkTime from "./components/WorkTime";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Presentation />
         <Slider />
         <Video />
+        <WorkTime />
       </div>
     </>
   );

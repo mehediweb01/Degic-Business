@@ -42,7 +42,7 @@ const Slider = () => {
               <img src="/logo.png" alt="" />
             </div>
             <div>
-              <h2 className="text-[55px] leading-[60px] text-black font-semibold max-w-md">
+              <h2 className="md:text-[55px] text-4xl md:leading-[60px] leading-10 text-black font-semibold max-w-md mb-3">
                 {heading}
               </h2>
               <p className="text-[21px] leading-7 text-[#00000080] max-w-md">
@@ -72,7 +72,7 @@ const Slider = () => {
         {/* logos */}
         <div>
           <marquee behavior="scroll" direction="left">
-            <div className="flex justify-between items-center max-w-full">
+            <div className="flex justify-between gap-5 md:gap-0 items-center max-w-full">
               <img src="/google.png" alt="" />
               <img src="/stripe.png" alt="" />
               <img src="/jber.png" alt="" />
