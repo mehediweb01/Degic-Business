@@ -1,3 +1,4 @@
+import Bomb from "./components/Bomb";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Presentation from "./components/Presentation";
@@ -15,6 +16,7 @@ function App() {
         <Slider />
         <Video />
         <WorkTime />
+        <Bomb />
       </div>
     </>
   );
