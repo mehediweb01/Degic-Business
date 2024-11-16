@@ -3,8 +3,8 @@ const Bomb = () => {
   return (
     <section className="bg-[#5F62E2] w-full">
       <div className="flex justify-around flex-col md:flex-row items-center gap-5 mt-16 max-w-[1400px] mx-auto">
-        <div className="flex flex-col gap-3">
-          <h1 className="md:text-[55px] text-4xl md:leading-[60px] text-white max-w-md">
+        <div className="flex flex-col gap-3 ">
+          <h1 className="md:text-[55px] text-4xl md:leading-[60px] text-white max-w-md md:text-start text-center">
             The quickest way to create awesome presentation
           </h1>
           <div className="flex gap-3 flex-wrap mb-10">

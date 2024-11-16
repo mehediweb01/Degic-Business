@@ -40,7 +40,7 @@ const WorkTime = () => {
         {/* section 2 */}
         <div className="flex justify-around items-center md:flex-row flex-col-reverse mt-24">
           {/* left side */}
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 ms-3 sm:ms-3">
             <div>
               <h1 className="font-bold text-black md:text-[55px] text-4xl max-w-lg">
                 Make more time for the work
