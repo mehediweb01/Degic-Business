@@ -1,3 +1,4 @@
+import Blog from "./components/Blog";
 import Bomb from "./components/Bomb";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -17,6 +18,7 @@ function App() {
         <Video />
         <WorkTime />
         <Bomb />
+        <Blog />
       </div>
     </>
   );
