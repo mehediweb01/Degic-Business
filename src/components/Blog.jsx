@@ -28,7 +28,7 @@ const Blog = () => {
   ];
   return (
     <section className="max-w-[1400px] mx-auto mt-16">
-      <div className="flex md:flex-row flex-col justify-between p-16 md:items-end items-center">
+      <div className="flex md:flex-row flex-col justify-between md:p-16 p-8 md:items-end items-center">
         <div>
           <h2 className="font-semibold md:text-[55px] text-4xl leading-[60px] md:text-start text-center">
             Get more from our blog
@@ -42,7 +42,7 @@ const Blog = () => {
           Learn More <span className="ms-3">{<ArrowForwardIcon />}</span>
         </button>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-16 pt-0 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:p-16 p-8 pt-0 ">
         {cartData.map((card) => (
           <div
             key={card.id}
