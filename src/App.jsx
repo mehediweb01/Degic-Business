@@ -1,5 +1,6 @@
 import Blog from "./components/Blog";
 import Bomb from "./components/Bomb";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Presentation from "./components/Presentation";
@@ -19,6 +20,7 @@ function App() {
         <WorkTime />
         <Bomb />
         <Blog />
+        <Footer />
       </div>
     </>
   );
